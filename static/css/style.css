@@ -462,3 +462,23 @@ div.top > a:hover {
   background-color: #00416a;
   color: #dee5e9;
 }
+
+@media only screen and (max-width: 600px) {
+  .katex-display > .katex {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+figure{
+  float: right;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin;
+  margin: 0.5em;
+  padding: 0.5em;
+}
