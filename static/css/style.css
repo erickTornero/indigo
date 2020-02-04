@@ -30,7 +30,7 @@ body {
   }
 
   img {
-    width: 100%;
+    width: 80%;
   }
 
   blockquote {
@@ -481,4 +481,13 @@ figure{
   border: thin;
   margin: 0.5em;
   padding: 0.5em;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:rgb(10, 22, 80);
+  height: 1px;
 }
